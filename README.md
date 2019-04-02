@@ -1,17 +1,18 @@
-# Ruby 2.3, 2.4, 2.5 or 2.6 with Node.js 10 LTS Dockerfile
+# Ruby 2.3, 2.4, 2.5 or 2.6 with Node.js 11 LTS Dockerfile
 
-[![Docker Automated build](https://img.shields.io/docker/automated/timbru31/ruby-node.svg)](https://hub.docker.com/r/timbru31/ruby-node/)
-[![Docker Build Status](https://img.shields.io/docker/build/timbru31/ruby-node.svg)](https://hub.docker.com/r/timbru31/ruby-node/)
-[![Build Status](https://travis-ci.org/timbru31/docker-ruby-node.svg?branch=master)](https://travis-ci.org/timbru31/docker-ruby-node)
-
-A minimal Dockerfile based on Ruby (2.3, 2.4, 2.5 or 2.6) Dockerfile (regular, slim or alpine) with Node.js 10 LTS (Dubnium) installed.
+A minimal Dockerfile based on Ruby (2.3, 2.4, 2.5 or 2.6) Dockerfile (regular, slim or alpine) with Node.js 11 LTS installed.
 
 ## What's included
 
 * Ruby 2.3, 2.4, 2.5 or 2.6
-* Node.js 10
-* npm 6
+* Node.js 11
+* npm
 * yarn
 
----
-Built by (c) Tim Brust and contributors. Released under the MIT license.
+## Contributing
+
+Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+
+## License
+
+This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
