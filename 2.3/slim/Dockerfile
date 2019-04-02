@@ -1,5 +1,5 @@
 FROM ruby:2.3-slim@sha256:36dd77eabfdf1cd7027a99af38d5f8e49bbcaf24b85ef53f8ad817ceee11cbcf
-LABEL maintainer "Tim Brust <tim.brust@sinnerschrader.com>"
+LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
 ARG REFRESHED_AT
 ENV REFRESHED_AT $REFRESHED_AT
