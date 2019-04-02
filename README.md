@@ -1,6 +1,8 @@
-# Ruby 2.3, 2.4, 2.5 or 2.6 with Node.js 11 LTS Dockerfile
+# Docker image with Ruby, Node.js 11 and Yarn
 
-A minimal Dockerfile based on Ruby (2.3, 2.4, 2.5 or 2.6) Dockerfile (regular, slim or alpine) with Node.js 11 LTS installed.
+Basically, it is the [Ruby based docker image](https://hub.docker.com/_/ruby) with [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/) installed.
+
+Ruby, Node.js and Yarn are based on official images.
 
 ## Supported tags and respective `Dockerfile` links
 
