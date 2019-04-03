@@ -38,10 +38,6 @@ Ruby, Node.js and Yarn are based on official images.
 - [`2.5.3-slim` (2.5.3/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.3/slim/Dockerfile)
 - [`2.5.3-alpine` (2.5.3/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.3/alpine/Dockerfile)
 
-- [`2.5.2` (2.5.2/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.2/Dockerfile)
-- [`2.5.2-slim` (2.5.2/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.2/slim/Dockerfile)
-- [`2.5.2-alpine` (2.5.2/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.2/alpine/Dockerfile)
-
 - [`2.5.1` (2.5.1/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.1/Dockerfile)
 - [`2.5.1-slim` (2.5.1/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.1/slim/Dockerfile)
 - [`2.5.1-alpine` (2.5.1/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.5.1/alpine/Dockerfile)
