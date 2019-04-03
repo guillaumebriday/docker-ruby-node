@@ -1,9 +1,6 @@
 FROM ruby:2.6@sha256:d5af6b19da8381014f59e79245ae242dd5ea8dfe1a8a6c0e2bc481366f1e92b9
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
-ARG REFRESHED_AT
-ENV REFRESHED_AT $REFRESHED_AT
-
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -

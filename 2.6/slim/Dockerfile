@@ -1,10 +1,6 @@
 FROM ruby:2.6-slim@sha256:91dedf6ad8e37046bf583ef72f9bb9c6300091340ac855469f5150b0b7da1a4a
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
-ARG REFRESHED_AT
-ENV REFRESHED_AT $REFRESHED_AT
-
-# hadolint ignore=DL3009
 RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
     curl \
     gnupg2
