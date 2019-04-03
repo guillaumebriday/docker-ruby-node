@@ -10,9 +10,13 @@ Ruby, Node.js and Yarn are based on official images.
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`latest`, `2.6` (2.6/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6/Dockerfile)
+- [`latest`, `2.6.2`, `2.6` (2.6/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6/Dockerfile)
 - [`2.6-slim` (2.6/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6/slim/Dockerfile)
 - [`2.6-alpine` (2.6/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6/alpine/Dockerfile)
+
+- [`2.6.2` (2.6.2/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6.2/Dockerfile)
+- [`2.6.2-slim` (2.6.2/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6.2/slim/Dockerfile)
+- [`2.6.2-alpine` (2.6.2/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6.2/alpine/Dockerfile)
 
 - [`2.6.1` (2.6.1/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6.1/Dockerfile)
 - [`2.6.1-slim` (2.6.1/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.6.1/slim/Dockerfile)
