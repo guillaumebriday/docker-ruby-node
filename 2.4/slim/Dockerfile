@@ -1,11 +1,9 @@
-FROM ruby:2.4-slim@sha256:dbfa1ea783168d5a6646359ffa6ccccdd812a8f2806732aac42d16f7990f2688
+FROM ruby:2.4-slim
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
 RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
     curl \
     gnupg2
-
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -

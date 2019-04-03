@@ -1,7 +1,5 @@
-FROM ruby:2.5@sha256:063f661153e37b60c8345c63d76c02ba914f54e0df9f6de48e7111d49d1b2828
+FROM ruby:2.5
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
-
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
