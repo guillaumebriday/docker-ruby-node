@@ -17,8 +17,12 @@ for tag in */; do
       dockerfile=$tag/$variant
     fi
 
+    image=guillaumebriday/ruby-node:$version
+
     docker pull ruby:$version
-    docker build -t guillaumebriday/ruby-node:$version ./$dockerfile
-    docker push guillaumebriday/ruby-node:$version
+    docker build -t $image ./$dockerfile
+    docker push $image
+
+    docker rmi ruby:$version $image
   done
 done
