@@ -19,10 +19,10 @@ for tag in */; do
 
     image=guillaumebriday/ruby-node:$version
 
-    docker pull ruby:$version
-    docker build -t $image ./$dockerfile
-    docker push $image
+    docker pull ruby:"$version"
+    docker build -t "$image" ./"$dockerfile"
+    docker push "$image"
 
-    docker rmi ruby:$version $image
+    docker rmi ruby:"$version" "$image"
   done
 done
