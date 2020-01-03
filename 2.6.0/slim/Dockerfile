@@ -1,4 +1,4 @@
-FROM ruby:2.5-slim
+FROM ruby:2.6.0-slim
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
 RUN apt-get update -qq && apt-get install -qq --no-install-recommends \

@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM ruby:2.6.5
 LABEL maintainer "Guillaume Briday <guillaumebriday@gmail.com>"
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
