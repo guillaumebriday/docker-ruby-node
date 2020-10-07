@@ -12,6 +12,10 @@ Ruby, Node.js and Yarn are based on official images.
 
 ### 2.7.x
 
+- [`2.7.2` (2.7.2/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.2/Dockerfile)
+- [`2.7.2-slim` (2.7.2/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.2/slim/Dockerfile)
+- [`2.7.2-alpine` (2.7.2/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.2/alpine/Dockerfile)
+
 - [`2.7.1` (2.7.1/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.1/Dockerfile)
 - [`2.7.1-slim` (2.7.1/slim/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.1/slim/Dockerfile)
 - [`2.7.1-alpine` (2.7.1/alpine/Dockerfile)](https://github.com/guillaumebriday/docker-ruby-node/blob/master/2.7.1/alpine/Dockerfile)
