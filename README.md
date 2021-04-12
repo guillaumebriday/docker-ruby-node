@@ -2,6 +2,8 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/guillaumebriday/ruby-node.svg)](https://hub.docker.com/r/guillaumebriday/ruby-node/)
 [![Docker Stars](https://img.shields.io/docker/stars/guillaumebriday/ruby-node.svg)](https://hub.docker.com/r/guillaumebriday/ruby-node/)
 
+⚠️ DEPRECATED IN FAVOR OF [https://circleci.com/developer/images/image/cimg/ruby](https://circleci.com/developer/images/image/cimg/ruby).
+
 # Docker image with Ruby, Node.js 12 and Yarn
 
 Basically, it is the [Ruby based docker image](https://hub.docker.com/_/ruby) with [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/en/) installed.
